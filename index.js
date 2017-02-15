@@ -13,15 +13,15 @@ var languageStrings = {
       'STOP_MESSAGE': 'Peace out, cub scout'
     }
   }
-}
-
+};
 
 exports.handler = function(event, context, callback) {
   var alexa = Alexa.handler(event, context);
   alexa.resources = languageStrings;
   alexa.registerHandlers(handlers);
   alexa.execute();
-}
+};
+
 var handlers = {
   'LaunchRequest': () => {
     this.emit(':ask', this.t('SEARCH_MSG'));
@@ -30,7 +30,7 @@ var handlers = {
   'catFlixPrompt': () => {
     this.emit(':ask', this.t('SEARCH_MSG'));
   },
-  
+
   'catFlixSearch': () => {
     couchPotatoSearch(this.event.request.intent);
   },
@@ -50,10 +50,8 @@ var handlers = {
     var speechOutput = this.t('STOP_MESSAGE');
     this.emit(':tell', speechOutput);
   }
-  
-
-}
+};
 
 function couchPotatoSearch() {
-  
+
 }
