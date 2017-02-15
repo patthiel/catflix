@@ -1,8 +1,8 @@
 {
-    "intents" : [
+    "intents": [
       {
         "intent": "catFlixSearch",
-        "slots" : [
+        "slots": [
           {
             "name": "Movie",
             "type": "AMAZON.Movie"
