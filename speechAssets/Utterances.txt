@@ -1,0 +1,14 @@
+catFlixPrompt find a movie
+catFlixPrompt get a film
+catFlixPrompt search for a movie
+catFlixPrompt get a movie
+catFlixPrompt find a movie
+
+catFlixSearch download {Movie}
+catFlixSearch search for {Movie}
+catFlixSearch find {Movie}
+
+catFlixSelectMovie choose number {Number}
+catFlixSelectMovie select number {Number}
+catFlixSelectMovie movie number {Number}
+catFlixSelectMovie pick {Number}

@@ -1,0 +1,35 @@
+{
+    "intents" : [
+      {
+        "intent": "catFlixSearch",
+        "slots" : [
+          {
+            "name": "Movie",
+            "type": "AMAZON.Movie"
+          }
+        ]
+      },
+      {
+        "intent": "catFlixPrompt",
+        "slots": []
+      },
+      {
+        "intent": "catFlixSelectMovie",
+        "slots": [
+          {
+            "name": "Number",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
+        "intent": "AMAZON.HelpIntent"
+      },
+      {
+        "intent": "AMAZON.StopIntent"
+      },
+      {
+        "intent": "AMAZON.CancelIntent"
+      }
+    ]
+}

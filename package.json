@@ -1,0 +1,19 @@
+{
+  "name": "catflix",
+  "version": "0.1.0",
+  "description": "Couchpotato Alexa Test Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:patthiel/catflix.git"
+  },
+  "author": "Patrick Thiel",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "rest": "^2.0.0"
+  }
+}
