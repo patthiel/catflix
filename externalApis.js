@@ -3,7 +3,7 @@ const fs = require('fs');
 const rest = require('rest');
 const mime = require('rest/interceptor/mime');
 const client = rest.wrap(mime);
-const nzbsKey = '3016fdc56a49f3e2a7bfd62de4ef8f6b';
+const nzbsKey = process.env.nzbsKey;
 const searchQuery = argv._[0];
 const { find, get } = require('lodash');
 
